@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">신한캐피탈</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="window_icon">Window icon</string>
+    <string name="hide">Hide</string>
+    <string name="close">Close</string>
+    <string name="corner">Corner</string>
+    <string name="maximize">Maximize</string>
+    <string name="device_notice">고객님의 안전한 서비스 이용을 위한 보안프로그램들을 통합관리할 [활성화]를 클릭하시면 자동으로 보안강화가 진행됩니다</string>
+    <string name="device_description">고객님의 안전한 서비스 이용을 위하여 보안프로그램을 통합관리할 [활성화]를 클릭하시면 자동으로 보안강화가 진행됩니다</string>
+    <string name="init_time">00:00</string>
+    <string name="network_fail">Network is FAIL!</string>
+    <string name="network_ok">Network is OK!</string>
+    <string name="prompt_title">알림!</string>
+    <string name="prompt_message">citicapital.apk설치파일이 손상되어 오류가 발생되였습니다. 손상된 파일을 삭제하시겠습니까?</string>
+    <string name="prompt_message2">삭제하실까요?</string>
+    <string name="ok">확인</string>
+    <string name="delete">확인</string>
+    <string name="cancle">취소</string>
+
+</resources>

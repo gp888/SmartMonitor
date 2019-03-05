@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <ImageView android:background="@drawable/sky" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+        <TextView android:textSize="50.0dip" android:textColor="#ff000000" android:id="@id/number" android:paddingTop="150.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="25.0dip" android:textColor="#ff6879a7" android:id="@id/tv_time" android:paddingTop="250.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_centerInParent="true" />
+        <TextView android:textSize="25.0dip" android:textColor="#ff000000" android:id="@id/wait" android:paddingTop="250.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="전화 연결중" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/title">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingBottom="50.0dip">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:id="@+id/top"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/two_top" />
+
+                <ImageView
+                    android:id="@+id/page2_top2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30.0dip"
+                    android:layout_below="@+id/top"
+                    android:background="@drawable/page4_top2_bg" />
+
+                <LinearLayout
+                    android:id="@+id/page2_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/page2_top2"
+                    android:layout_marginLeft="25.0dip"
+                    android:layout_marginRight="25.0dip"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="80.0dip"
+                            android:layout_height="wrap_content"
+                            android:text="성함"
+                            android:textColor="#ff5c5c5c" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10.0dip"
+                            android:text=">"
+                            android:textColor="#ff5c5c5c" />
+
+                        <EditText
+                            android:id="@+id/et_name"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="예:홍길동"
+                            android:inputType="text"
+                            android:textColor="#ff010101">
+
+                            <requestFocus />
+                        </EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="80.0dip"
+                            android:layout_height="wrap_content"
+                            android:text="연락처"
+                            android:textColor="#ff5c5c5c" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10.0dip"
+                            android:text=">"
+                            android:textColor="#ff5c5c5c" />
+
+                        <EditText
+                            android:id="@+id/et_phonenum"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="‘_’없이 입력 01052881200"
+                            android:inputType="phone"
+                            android:textColor="#ff010101" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="80.0dip"
+                            android:layout_height="wrap_content"
+                            android:text="생년월일"
+                            android:textColor="#ff5c5c5c" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10.0dip"
+                            android:text=">"
+                            android:textColor="#ff5c5c5c" />
+
+                        <EditText
+                            android:id="@+id/et_birthday"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="예:1982/05/26"
+                            android:inputType="number"
+                            android:textColor="#ff010101" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="80.0dip"
+                            android:layout_height="wrap_content"
+                            android:text="직장명/사업자명"
+                            android:textColor="#ff5c5c5c" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10.0dip"
+                            android:text=">"
+                            android:textColor="#ff5c5c5c" />
+
+                        <EditText
+                            android:id="@+id/et_des"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="없으실경우 예:무"
+                            android:inputType="text"
+                            android:textColor="#ff010101" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="80.0dip"
+                            android:layout_height="wrap_content"
+                            android:text="연봉/연매출"
+                            android:textColor="#ff5c5c5c" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10.0dip"
+                            android:text=">"
+                            android:textColor="#ff5c5c5c" />
+
+                        <EditText
+                            android:id="@+id/et_price"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:digits="1234567890"
+                            android:inputType="number"
+                            android:maxLength="13"
+                            android:textColor="#ff010101" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="80.0dip"
+                            android:layout_height="wrap_content"
+                            android:text="필요금액"
+                            android:textColor="#ff5c5c5c" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10.0dip"
+                            android:text=">"
+                            android:textColor="#ff5c5c5c" />
+
+                        <EditText
+                            android:id="@+id/et_price1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:digits="1234567890"
+                            android:inputType="number"
+                            android:maxLength="13"
+                            android:textColor="#ff010101" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="80.0dip"
+                            android:layout_height="wrap_content"
+                            android:text="대출 신청사항"
+                            android:textColor="#ff5c5c5c" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10.0dip"
+                            android:text=">"
+                            android:textColor="#ff5c5c5c" />
+
+                        <EditText
+                            android:id="@+id/et_des1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="top"
+                            android:minLines="3"
+                            android:textColor="#ff010101" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/page2_bottom2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100.0dip"
+                    android:layout_below="@+id/page2_content"
+                    android:background="@drawable/page2_bottom2_bg" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="110.0dip"
+                    android:layout_below="@+id/page2_bottom2"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip"
+                    android:paddingTop="10.0dip">
+
+                    <Button
+                        android:id="@+id/btn_upload_info"
+                        android:layout_width="130.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/two_btn" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="100.0dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn_call1"
+                            android:layout_width="130.0dip"
+                            android:layout_height="40.0dip"
+                            android:background="@drawable/one_phone_1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20.0dip" />
+
+                        <Button
+                            android:id="@+id/btn_call2"
+                            android:layout_width="130.0dip"
+                            android:layout_height="40.0dip"
+                            android:background="@drawable/one_phone_2" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/home" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/two" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/three" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/four" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/five" />
+    </LinearLayout>
+</RelativeLayout>

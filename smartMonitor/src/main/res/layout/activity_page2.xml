@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/title">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingBottom="50.0dip">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:id="@+id/top"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/two_top" />
+
+                <ImageView
+                    android:id="@+id/page2_top2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30.0dip"
+                    android:layout_below="@+id/top"
+                    android:background="@drawable/page4_top2_bg" />
+
+                <LinearLayout
+                    android:id="@+id/page2_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/page2_top2"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dip"
+                        android:layout_marginRight="20.0dip"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 3월2일 *태*님 기타금융 직장인 신용대출 300만원 입금완료"
+                            android:textColor="#ff010101"
+                            android:textSize="12.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 3월2일 *태*님 기타금융 직장인 신용대출 300만원 입금완료"
+                            android:textColor="#ff5c5c5c"
+                            android:textSize="10.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:text="2016.03.02 16:21"
+                            android:textColor="#ffa0a0a0"
+                            android:textSize="10.0sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:background="@drawable/page2_divid_bg" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dip"
+                        android:layout_marginRight="20.0dip"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 3월2일 임**님 현*캐피* 주부 신용대출 3000만원  입금완료"
+                            android:textColor="#ff010101"
+                            android:textSize="12.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 3월2일 임**님 현*캐피* 주부 신용대출 3000만원  입금완료"
+                            android:textColor="#ff5c5c5c"
+                            android:textSize="10.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:text="2016.03.02 10:21"
+                            android:textColor="#ffa0a0a0"
+                            android:textSize="10.0sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:background="@drawable/page2_divid_bg" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dip"
+                        android:layout_marginRight="20.0dip"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 3월1일 *나*님 롯*캐피탈 개인회생직장인신용대출 1000 만원 입금완료"
+                            android:textColor="#ff010101"
+                            android:textSize="12.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 3월1일 *나*님 현*캐피* 개인회생직장인신용대출1000만원 입금완료"
+                            android:textColor="#ff5c5c5c"
+                            android:textSize="10.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:text="2016.03.01 11:21"
+                            android:textColor="#ffa0a0a0"
+                            android:textSize="10.0sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:background="@drawable/page2_divid_bg" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dip"
+                        android:layout_marginRight="20.0dip"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 3월1일 **균님 기타금융 신용대출 650만원 입금완료"
+                            android:textColor="#ff010101"
+                            android:textSize="12.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 3월1일 *나*님 현*캐피* 개인회생직장인신용대출 650만원 입금완료"
+                            android:textColor="#ff5c5c5c"
+                            android:textSize="10.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:text="2016.03.1 09:25"
+                            android:textColor="#ffa0a0a0"
+                            android:textSize="10.0sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:background="@drawable/page2_divid_bg" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dip"
+                        android:layout_marginRight="20.0dip"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 3월1일 **민님 N*농*캐피탈 개인신용대출 4000만원  입금완료"
+                            android:textColor="#ff010101"
+                            android:textSize="12.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 3월1일 **민님 N*농*캐피탈 개인신용대출 4000만원 입금완료"
+                            android:textColor="#ff5c5c5c"
+                            android:textSize="10.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:text="2016.03.1 15:20"
+                            android:textColor="#ffa0a0a0"
+                            android:textSize="10.0sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:background="@drawable/page2_divid_bg" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dip"
+                        android:layout_marginRight="20.0dip"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 2월29일 홍**님 신*캐피탈 개인신용대출 750만원  입금완료"
+                            android:textColor="#ff010101"
+                            android:textSize="12.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 2월29일 홍**님 신*캐피탈 개인신용대출 750만원  입금완료"
+                            android:textColor="#ff5c5c5c"
+                            android:textSize="10.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:text="2016.02.29 13:03"
+                            android:textColor="#ffa0a0a0"
+                            android:textSize="10.0sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:background="@drawable/page2_divid_bg" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dip"
+                        android:layout_marginRight="20.0dip"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 2월29일 *진*님 *나캐피탈 개인신용대출 5000만원 입금완료"
+                            android:textColor="#ff010101"
+                            android:textSize="12.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2016년 2월29일 *진*님 *나캐피탈 개인신용대출 5000만원입금완료"
+                            android:textColor="#ff5c5c5c"
+                            android:textSize="10.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:text="2016.02.29 09:56"
+                            android:textColor="#ffa0a0a0"
+                            android:textSize="10.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/page2_bottom2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100.0dip"
+                    android:layout_below="@+id/page2_content"
+                    android:background="@drawable/page2_bottom2_bg" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="110.0dip"
+                    android:layout_below="@+id/page2_bottom2"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip"
+                    android:paddingTop="10.0dip">
+
+                    <Button
+                        android:id="@+id/btn_topage5"
+                        android:layout_width="130.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/two_btn" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="100.0dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn_call1"
+                            android:layout_width="130.0dip"
+                            android:layout_height="40.0dip"
+                            android:background="@drawable/one_phone_1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20.0dip" />
+
+                        <Button
+                            android:id="@+id/btn_call2"
+                            android:layout_width="130.0dip"
+                            android:layout_height="40.0dip"
+                            android:background="@drawable/one_phone_2" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/home" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/two" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/three" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/four" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/five" />
+    </LinearLayout>
+</RelativeLayout>
